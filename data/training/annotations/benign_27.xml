@@ -1,13 +1,13 @@
 <annotation>
 	<folder>images</folder>
 	<filename>benign_27.jpg</filename>
-	<path>D:\FengChiaUniversity\3rdGrade\IntroductionToAI\FinalProject\Darkflow\test\training\images\benign_27.jpg</path>
+	<path>D:\FengChiaUniversity\3rdGrade\IntroductionToAI\FinalProject\Darkflow\data\training\images\benign_27.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
 	<size>
-		<width>224</width>
-		<height>224</height>
+		<width>416</width>
+		<height>416</height>
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
@@ -17,10 +17,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>91</xmin>
-			<ymin>60</ymin>
-			<xmax>154</xmax>
-			<ymax>147</ymax>
+			<xmin>148</xmin>
+			<ymin>112</ymin>
+			<xmax>290</xmax>
+			<ymax>294</ymax>
 		</bndbox>
 	</object>
 </annotation>

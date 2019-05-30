@@ -1,7 +1,7 @@
 <annotation>
 	<folder>images</folder>
 	<filename>malignant_1321.jpg</filename>
-	<path>D:\FengChiaUniversity\3rdGrade\IntroductionToAI\FinalProject\Darkflow\test\training\images\malignant_1321.jpg</path>
+	<path>D:\FengChiaUniversity\3rdGrade\IntroductionToAI\FinalProject\Darkflow\data\training\images\malignant_1321.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -21,6 +21,18 @@
 			<ymin>78</ymin>
 			<xmax>210</xmax>
 			<ymax>250</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>malignant</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>225</xmin>
+			<ymin>81</ymin>
+			<xmax>416</xmax>
+			<ymax>401</ymax>
 		</bndbox>
 	</object>
 </annotation>
