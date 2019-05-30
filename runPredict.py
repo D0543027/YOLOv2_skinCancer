@@ -25,10 +25,9 @@ def draw_boundingBox(original_img, predictions):
     return newImage
 
 if __name__ == "__main__":
-    options = {"model": "cfg/tiny-yolov2-custom.cfg", "load": -1,"threshold": 0.2,"gpu":0.7}
+    options = {"pbLoad": "built_graph/tiny-yolov2-custom.pb", "metaLoad": "built_graph/tiny-yolov2-custom.meta","threshold": 0.2,"gpu":0.7}
 
     tfnet = TFNet(options)
-
     img_path = "data/testing"
     output_path = "data/result"
 
