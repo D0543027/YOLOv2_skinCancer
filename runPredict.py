@@ -31,6 +31,8 @@ if __name__ == "__main__":
     img_path = "data/testing"
     output_path = "data/result"
 
+    if not os.path.exists(output_path):
+        os.mkdir(output_path)
 
     for roots, dirs, files in os.walk(img_path):
         for fname in (x for x in files if x.endswith(".jpg")):
