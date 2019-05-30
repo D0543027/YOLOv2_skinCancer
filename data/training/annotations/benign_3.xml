@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>benign_3.jpg</filename>
+	<path>D:\FengChiaUniversity\3rdGrade\IntroductionToAI\FinalProject\Darkflow\test\training\images\benign_3.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>416</width>
+		<height>416</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>benign</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>56</xmin>
+			<ymin>79</ymin>
+			<xmax>297</xmax>
+			<ymax>314</ymax>
+		</bndbox>
+	</object>
+</annotation>
