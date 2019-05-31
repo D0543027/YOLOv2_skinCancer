@@ -15,12 +15,15 @@ def draw_boundingBox(original_img, predictions):
 
         label = result['label']
         confidence = result['confidence']
+
         if confidence > 0.3:
             if label == "benign":
-                newImage = cv2.rectangle(newImage, (top_x, top_y), (btm_x, btm_y), (255,0,0), 1)
+                label = label + " " + str(confidence)
+                newImage = cv2.rectangle(newImage, (top_x, top_y), (btm_x, btm_y), (255,0,0), 2)
                 newImage = cv2.putText(newImage, label, (top_x, top_y-5), cv2.FONT_HERSHEY_DUPLEX , 0.5, (0, 230, 0), 1, cv2.LINE_AA)
             else:
-                newImage = cv2.rectangle(newImage, (top_x, top_y), (btm_x, btm_y), (220,0,255), 1)
+                label = label + " " + str(confidence)
+                newImage = cv2.rectangle(newImage, (top_x, top_y), (btm_x, btm_y), (220,0,255), 2)
                 newImage = cv2.putText(newImage, label, (top_x, top_y-5), cv2.FONT_HERSHEY_DUPLEX , 0.5, (0, 0, 230), 1, cv2.LINE_AA)
     return newImage
 
